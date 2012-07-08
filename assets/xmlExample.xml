@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+	<movie>
+		<id>7</id>
+		<name><![CDATA[Avatar]]></name> 
+		<director><![CDATA[James Cameron]]></director>
+		<description><![CDATA[ Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora,... ]]></description>
+		<image>http://images.allocine.fr/r_160_214/b_1_cfd7e1/medias/nmedia/18/64/43/65/19211318.jpg</image>
+	</movie>
+	<movie>
+		<id>8</id>
+		<name><![CDATA[Titanic]]></name> 
+		<director><![CDATA[James Cameron]]></director>
+		<description><![CDATA[ il 1912. Le paquebot le plus grand et le plus moderne du monde, réputé pour son insubmersibilité, le "Titanic", appareille pour son premier voyage. Quatre jours plus tard, il heurte un iceberg ]]></description>
+		<image>http://images.allocine.fr/r_160_214/b_1_cfd7e1/medias/01/60/25/016025_af.jpg</image>
+	</movie>
+	<movie>
+		<id>9</id>
+		<name><![CDATA[Sexe Intentions ]]></name> 
+		<director><![CDATA[Roger Kumble]]></director>
+		<description><![CDATA[ Ils sont jeunes, beaux, riches et rivalisent d'adresse machiavélique pour comploter des conquêtes amoureuses. ]]></description>
+		<image>http://images.allocine.fr/r_160_214/b_1_cfd7e1/medias/04/33/19/043319_af.jpg</image>
+	</movie>
+</movies>

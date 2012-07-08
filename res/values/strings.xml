@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Lovely Movies</string>
+    <string name="movie_img">movie_img</string>
+    <string name="by">Par :</string>
+    <string name="loading">Downloading...</string>
+    <string name="nointernet">No Internet Connection!</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_view">View</string>
+    <string name="action_add">Add</string>
+    
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="url">URL</string>
+    <string name="director">Director</string>
+    
+    <plurals name="moviez">
+        <item quantity="one">One Movie Deleted</item>
+        <item quantity="other">%d Movies Deleted</item>
+    </plurals>
+    
+    <string name="movie_selected"> %1$s Selected</string>
+    
+    <string name="caching">Caching...</string>
+    <string name="uncaching">Uncaching...</string>
+    
+</resources>
