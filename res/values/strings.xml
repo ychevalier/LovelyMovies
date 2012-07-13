@@ -12,6 +12,11 @@
     <string name="action_view">View</string>
     <string name="action_add">Add</string>
     
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="director">Director</string>
+    <string name="url">URL</string>
+    
     <plurals name="movie_deleted">
         <item quantity="one">One Movie Deleted</item>
         <item quantity="other">%d Movies Deleted</item>
