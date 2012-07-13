@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/alone_action_edit"
+        android:id="@+id/movies_details_action_edit"
         android:title="@string/action_edit"
         android:icon="@android:drawable/ic_menu_edit" 
-        android:orderInCategory="0" 
         android:showAsAction="always"/>
     <item
-        android:id="@+id/alone_action_share"
+        android:id="@+id/movies_details_action_share"
         android:title="@string/action_share"
         android:icon="@android:drawable/ic_menu_share"
         android:showAsAction="always"/>
     <item
-        android:id="@+id/alone_action_delete"
+        android:id="@+id/movies_details_action_delete"
         android:title="@string/action_delete"
         android:icon="@android:drawable/ic_menu_delete"
         android:showAsAction="always"/>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="horizontal" 
-    android:background="@drawable/list_view_selector" >
-
+    android:padding="@dimen/space_std"
+    android:background="@drawable/movies_list_item_selector" >
     <ImageView
         android:id="@+id/row_movies_img"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/movie_img"
-        android:padding="5dp"/>
-
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/row_img_height"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/movie_img"/>
     <TextView
         android:id="@+id/row_movies_title"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/space_std"
         android:layout_height="wrap_content"
-        android:layout_gravity="left|center_vertical" />
-
+        android:layout_gravity="center_vertical" />
 </LinearLayout>

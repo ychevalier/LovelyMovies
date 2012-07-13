@@ -3,14 +3,9 @@
     <item
         android:id="@+id/cab_action_add"
         android:title="@string/action_add"
-        android:icon="@android:drawable/ic_menu_add"
-        android:orderInCategory="0" />
+        android:icon="@android:drawable/ic_menu_add" />
     <item
         android:id="@+id/cab_action_delete"
         android:title="@string/action_delete"
- />
-    <item
-        android:id="@+id/cab_action_edit"
-        android:title="@string/action_edit"
-        android:icon="@android:drawable/ic_menu_edit" />
+        android:icon="@android:drawable/ic_menu_delete" />
 </menu>

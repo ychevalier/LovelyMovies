@@ -63,23 +63,15 @@ public class MovieDownloader extends
 		// Starts the query
 		conn.connect();
 		is = conn.getInputStream();
-		if(DEBUG_MODE)
-			Log.d(TAG, "XML Downloaded!");
 		
 		MovieParser sp = new MovieParser();
 		
-		if(DEBUG_MODE)
-			Log.d(TAG, "Trying to parse XML...");
-		
 		try {
 			List<ContentValues> listMovies = sp.parse(is);
-			//LovelyMoviesApplication.pManager.putMoviesInDBWhenDownloaded(lm);
-			
 			for(ContentValues movie : listMovies) {
 				Uri uri = Movies.buildMovieUri(movie.getAsString(Movies.MOVIE_ID));
 				mContentResolver.insert(uri, movie);
 			}
-
 		} catch (Exception e) {
 			if(DEBUG_MODE)
 				Log.d(TAG, "Unable to Parse XML!");

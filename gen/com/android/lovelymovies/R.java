@@ -696,6 +696,10 @@ containing a value of this type.
  Minimum width for an action button in the menu area of an action bar 
          */
         public static final int action_button_min_width=0x7f07000b;
+        public static final int edit_field_label_size=0x7f07000f;
+        public static final int row_img_height=0x7f07000d;
+        public static final int space_std=0x7f07000c;
+        public static final int title_text_size=0x7f07000e;
     }
     public static final class drawable {
         public static final int abs__ab_bottom_solid_dark_holo=0x7f020000;
@@ -784,7 +788,7 @@ containing a value of this type.
         public static final int abs__tab_selected_pressed_holo=0x7f020053;
         public static final int abs__tab_unselected_pressed_holo=0x7f020054;
         public static final int ic_launcher=0x7f020055;
-        public static final int list_view_selector=0x7f020056;
+        public static final int movies_list_item_selector=0x7f020056;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040022;
@@ -816,22 +820,19 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
-        public static final int alone_action_delete=0x7f04003f;
-        public static final int alone_action_edit=0x7f04003d;
-        public static final int alone_action_share=0x7f04003e;
-        public static final int cab_action_add=0x7f04003a;
-        public static final int cab_action_delete=0x7f04003b;
-        public static final int cab_action_edit=0x7f04003c;
+        public static final int cab_action_add=0x7f04003d;
+        public static final int cab_action_delete=0x7f04003e;
+        public static final int cab_action_edit=0x7f04003f;
         public static final int content_movies_details=0x7f040027;
         public static final int content_movies_edit=0x7f040028;
         public static final int content_movies_list=0x7f040029;
         public static final int disableHome=0x7f040009;
-        public static final int edit_cancel=0x7f040037;
+        public static final int edit_cancel=0x7f040036;
         public static final int edit_description_edit=0x7f040035;
         public static final int edit_description_view=0x7f040034;
         public static final int edit_director_edit=0x7f040031;
         public static final int edit_director_view=0x7f040030;
-        public static final int edit_ok=0x7f040036;
+        public static final int edit_ok=0x7f040037;
         public static final int edit_title_edit=0x7f04002f;
         public static final int edit_title_view=0x7f04002e;
         public static final int edit_url_edit=0x7f040033;
@@ -842,6 +843,9 @@ containing a value of this type.
         public static final int fragment_movies_details_title=0x7f04002a;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
+        public static final int movies_details_action_delete=0x7f04003c;
+        public static final int movies_details_action_edit=0x7f04003a;
+        public static final int movies_details_action_share=0x7f04003b;
         public static final int normal=0x7f040001;
         public static final int row_movies_img=0x7f040038;
         public static final int row_movies_title=0x7f040039;
@@ -887,13 +891,13 @@ containing a value of this type.
         public static final int sherlock_spinner_item=0x7f03001c;
     }
     public static final class menu {
-        public static final int add_menu=0x7f0c0000;
-        public static final int contextual_actions_multiple=0x7f0c0001;
-        public static final int contextual_actions_single=0x7f0c0002;
-        public static final int menu_alone=0x7f0c0003;
+        public static final int movies_details=0x7f0c0000;
+        public static final int movies_list=0x7f0c0001;
+        public static final int movies_list_multiple_selection=0x7f0c0002;
+        public static final int movies_list_single_selection=0x7f0c0003;
     }
     public static final class plurals {
-        public static final int moviez=0x7f0b0000;
+        public static final int movie_deleted=0x7f0b0000;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1033,6 +1037,7 @@ containing a value of this type.
         public static final int Widget_Sherlock_ProgressBar_Horizontal=0x7f0a0030;
         public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a0024;
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0032;
+        public static final int movie_title=0x7f0a0058;
     }
     public static final class styleable {
         /**  Attributes used to style the Action Bar. 

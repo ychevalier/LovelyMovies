@@ -112,7 +112,7 @@ public class MoviesListFragment extends SherlockListFragment implements
 		// Create the menu from the xml file
 		type = SINGLE_MODE;
 		inflater = getSherlockActivity().getSupportMenuInflater();
-		inflater.inflate(R.menu.contextual_actions_single, menu);
+		inflater.inflate(R.menu.movies_list_single_selection, menu);
 
 		return true;
 	}
@@ -124,14 +124,14 @@ public class MoviesListFragment extends SherlockListFragment implements
 				&& type != SINGLE_MODE) {
 			menu.clear();
 			type = SINGLE_MODE;
-			inflater.inflate(R.menu.contextual_actions_single, menu);
+			inflater.inflate(R.menu.movies_list_single_selection, menu);
 
 			return true;
 		} else if (getListView().getCheckedItemPositions().size() > 1
 				&& type != MULTIPLE_MODE) {
 			menu.clear();
 			type = MULTIPLE_MODE;
-			inflater.inflate(R.menu.contextual_actions_multiple, menu);
+			inflater.inflate(R.menu.movies_list_multiple_selection, menu);
 			return true;
 		} else {
 			return false;
@@ -173,7 +173,7 @@ public class MoviesListFragment extends SherlockListFragment implements
 			}
 			Toast.makeText(
 					getSherlockActivity(),
-					getResources().getQuantityString(R.plurals.moviez,
+					getResources().getQuantityString(R.plurals.movie_deleted,
 							selected.size(), selected.size()),
 					Toast.LENGTH_LONG).show();
 
@@ -273,7 +273,7 @@ public class MoviesListFragment extends SherlockListFragment implements
 
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater menuInf) {
-		menuInf.inflate(R.menu.add_menu, menu);
+		menuInf.inflate(R.menu.movies_list, menu);
 	}
 
 	@Override
