@@ -2,6 +2,8 @@
 <resources>
 
     <dimen name="space_std">8dp</dimen>
+    <dimen name="space_std">4dp</dimen>
+    
     <dimen name="row_img_height">80dp</dimen>
     <dimen name="title_text_size">25sp</dimen>
 

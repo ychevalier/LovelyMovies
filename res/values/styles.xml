@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     
-    <style name="movie_title" parent="@android:style/Widget.TextView">
+    <style name="LovelyMovies.TextView" parent="@android:style/Widget.TextView"/>
+    
+    <style name="LovelyMoviesCustom" parent="@style/Theme.lovelymovies">
+        <!-- Do you custom stuff -->
+    </style>
+    
+    <style name="movie_title" parent="@style/LovelyMovies.TextView">
         <item name="android:textSize">@dimen/title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>

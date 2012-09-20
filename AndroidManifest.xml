@@ -14,21 +14,24 @@
     <application
         android:name=".LovelyMoviesApplication"
         android:icon="@drawable/ic_launcher"
-       	android:theme="@style/Theme.Sherlock"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/LovelyMoviesCustom" >
         <activity
             android:name=".ui.MoviesListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />  
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ui.MoviesDetailsActivity" />
         <activity android:name=".ui.MoviesEditActivity" />
-        
-        <provider android:name=".provider.LovelyMoviesProvider"
-            android:authorities="com.android.lovelymovies" />
+
+        <provider
+            android:name=".provider.LovelyMoviesProvider"
+            android:authorities="com.android.lovelymovies"
+            android:exported="false" />
     </application>
 
 </manifest>
